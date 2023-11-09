@@ -1,0 +1,96 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Valido per tutto il testo*/
+.contenitore{
+    width: 1500px;
+    height: 700px;
+    margin: auto;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+/*Logo and title*/
+div.transbox{
+    margin: auto;
+    margin-top: 30px;
+    background-color: #000000;
+    border: 1px solid black;
+    border-radius: 25px;
+    opacity: 0.6;
+    width: 800px;
+    height: 650px;
+}
+
+header{
+    text-align: center;
+}
+
+img{
+    width: 150px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.logotext{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #00FF00;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+/*Click bar*/
+div.box{
+    background-color: #00FF00;
+    margin: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+/*Sections*/
+.Sections{
+    color: rgb(255, 254, 254);
+    width: 600px;
+    margin-left: 38px;
+    margin-top: 10px;
+}
+
+.texttitle{
+    margin-top: 30px;
+}
+
+#bigtext{
+    font-size: 1.3em;    
+}
+
+#smalltext{
+    font-size: 1em;
+}
+
+.riga-colorata1 {
+    background-color: orange;
+    height: 25px;
+    width: 280px;
+    border-radius: 5px;
+}
+
+.riga-colorata2 {
+    background-color: #00FF00;
+    height: 25px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+.riga-colorata3 {
+    background-color: red;
+    height: 25px;
+    width: 120px;
+    border-radius: 5px;
+}
